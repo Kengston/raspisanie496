@@ -19,7 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c8b36398-a755-44bf-873c-f8e8968c46b5" name="Default Changelist" comment="calendar structure">
+    <list default="true" id="c8b36398-a755-44bf-873c-f8e8968c46b5" name="Default Changelist" comment="calendar even done">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
     </list>
@@ -61,7 +61,7 @@
       <option name="presentableId" value="Default" />
       <updated>1633551264643</updated>
       <workItem from="1633551264932" duration="3544000" />
-      <workItem from="1633638399319" duration="6026000" />
+      <workItem from="1633638399319" duration="7479000" />
     </task>
     <task id="LOCAL-00001" summary="json initialized">
       <created>1633551372885</created>
@@ -91,7 +91,14 @@
       <option name="project" value="LOCAL" />
       <updated>1633638867335</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="calendar even done">
+      <created>1633644857818</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1633644857818</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -111,7 +118,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="json initialized" />
     <MESSAGE value="calendar structure" />
-    <option name="LAST_COMMIT_MESSAGE" value="calendar structure" />
+    <MESSAGE value="calendar even done" />
+    <option name="LAST_COMMIT_MESSAGE" value="calendar even done" />
   </component>
   <component name="WindowStateProjectService">
     <state x="293" y="53" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1633551313573">
