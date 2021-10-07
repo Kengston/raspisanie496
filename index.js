@@ -7,7 +7,7 @@ const bot = new TelegramApi(token, {polling: true})
 const calendar = {
     reply_markup: JSON.stringify({
         inline_keyboard: [
-            [{text: 'Понедельник', callback_data: 'asdasd'}],
+            [{text: 'Понедельник', callback_data: '/monday'}],
             [{text: 'Вторник', callback_data: 'asdasd'}],
             [{text: 'Среда', callback_data: 'asdasd'}],
             [{text: 'Четверг', callback_data: 'asdasd'}],
@@ -25,6 +25,9 @@ const start = () => {
         if (text === '/start') {
             await bot.sendMessage(chatId, 'Йоу')
             return bot.sendMessage(chatId, 'Расписание:', calendar)
+        }
+        if (text === '/monday') {
+            return await bot.sendMessage(chatId, '')
         }
     })
 }
